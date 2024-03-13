@@ -30,4 +30,8 @@ figure {
     background-size: cover;
     display: flex;
     height: 500px;
+    padding: 20px 50px;
+    &__title {
+        color: $text-color-white;
+    }
 }
