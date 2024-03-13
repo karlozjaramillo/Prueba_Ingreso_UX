@@ -30,13 +30,19 @@ figure {
   color: #fff;
 }
 
-.lang-dropdown {
+.header--right {
   position: absolute;
   top: 20px;
   right: 50px;
+  text-align: right;
+}
+
+.lang-dropdown {
   color: #fff;
+  margin-bottom: 10px;
 }
 .lang-dropdown__arrow-down {
+  vertical-align: middle;
   width: 1rem;
   display: inline;
   filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(105deg) brightness(103%) contrast(101%);
@@ -52,6 +58,7 @@ figure {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
+  text-align: left;
 }
 .lang-dropdown-content li {
   list-style: none;
@@ -64,6 +71,22 @@ figure {
 
 .lang-dropdown:hover .lang-dropdown-content {
   display: block;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  border-bottom: 2px solid #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
