@@ -28,7 +28,7 @@ figure {
 .header {
     background: url("../assets/plane.jpg") no-repeat center fixed;
     background-size: cover;
-    display: flex;
+    // display: flex;
     height: 500px;
     padding: 20px 50px;
 
@@ -101,5 +101,36 @@ a {
 
     &:hover {
         border-bottom: 2px solid #fff;
+    }
+}
+
+.header__content {
+    padding-top: 10%;
+
+    p {
+        color: $text-color-white;
+    }
+
+    &-title {
+        font-size: 1.6rem;
+    }
+}
+
+.header__content-text {
+    margin-bottom: 30px;
+}
+
+.header__content-button {
+    background-color: $color-red;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    color: $text-color-white;
+    &:hover{
+        background-color: $text-color-white;
+        color: $color-red;
     }
 }
