@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 $primary-color: #0a2463;
 $color-red: #fb3640;
+$color-gray: #a2a19c;
 $text-color-white: #fff;
 $text-color-gray: #65665d;
+$text-color-blue: #237da1;
 $font: Roboto, sans-serif;
 
 * {
@@ -129,8 +131,32 @@ a {
     text-align: center;
     cursor: pointer;
     color: $text-color-white;
-    &:hover{
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    &:hover {
         background-color: $text-color-white;
         color: $color-red;
     }
+}
+
+.offers {
+    padding: 70px 50px;
+
+    &__title {
+        color: $text-color-blue;
+        font-weight: 400;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 150px;
+            width: 85%;
+            height: 2px;
+            background-color: $color-gray;
+            margin: 1%;
+        }
+    }
+
+
 }

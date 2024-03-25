@@ -111,10 +111,29 @@ a:hover {
   text-align: center;
   cursor: pointer;
   color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 .header__content-button:hover {
   background-color: #fff;
   color: #fb3640;
+}
+
+.offers {
+  padding: 70px 50px;
+}
+.offers__title {
+  color: #237da1;
+  font-weight: 400;
+}
+.offers__title::after {
+  content: "";
+  position: absolute;
+  left: 150px;
+  width: 85%;
+  height: 2px;
+  background-color: #a2a19c;
+  margin: 1%;
 }
 
 /*# sourceMappingURL=style.css.map */
