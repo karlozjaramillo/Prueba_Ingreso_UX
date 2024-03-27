@@ -133,7 +133,10 @@ a:hover {
   width: 85%;
   height: 2px;
   background-color: #a2a19c;
-  margin: 1%;
+  margin: 0.8%;
+}
+.offers__content-cards {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

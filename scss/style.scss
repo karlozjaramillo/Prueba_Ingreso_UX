@@ -154,8 +154,12 @@ a {
             width: 85%;
             height: 2px;
             background-color: $color-gray;
-            margin: 1%;
+            margin: 0.8%;
         }
+    }
+
+    &__content-cards {
+        display: flex;
     }
 
 
